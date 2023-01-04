@@ -108,10 +108,12 @@ main{
     color: #757575;
     font-size: 18px;
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .about-info-container{
     display: flex;
+    justify-content: space-around;
 }
 
 .about .info-title{
@@ -123,4 +125,9 @@ main{
     font-size: 20px;
     font-weight: 700;
     color: #474747;
+}
+
+/* What I Do Styles */
+.what-i-do{
+    margin-top: 130px;
 }
